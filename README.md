@@ -1,3 +1,4 @@
 # shell_tools ubuntu18.04 bash
 
-# get_dirname.sh: get present dirname from shell
+#file:
+#get_direname.sh: get present dirname from shell
