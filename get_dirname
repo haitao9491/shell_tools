@@ -1,0 +1,16 @@
+#!/bin/bash
+
+project_path=$(cd `dirname $0`; pwd)
+project_name="${project_path##*/}"
+echo $project_path
+#eg:	/home/****/01_beside/tools
+echo $project_name
+#eg:	tools
+
+#说明	#:表示从左开始算起，并且截取第一个匹配的字符
+
+#说明	##:表示从左开始算起，并且截取最后一个匹配的字符
+
+#说明	%:表示从右开始算起，并且截取第一个匹配的字符
+
+#说明	%%:表示从右开始算起，并且截取最后一个匹配的字符
